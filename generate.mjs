@@ -3,7 +3,6 @@ import spec from './spec/hyperdb/index.js'
 
 const BATCH_SIZE = 10000
 
-// await generateDatabase('./dbs/1e7', 1e7)
 await generateDatabase('./dbs/1e6', 1e6)
 await generateDatabase('./dbs/1e5', 1e5)
 await generateDatabase('./dbs/1e4', 1e4)
