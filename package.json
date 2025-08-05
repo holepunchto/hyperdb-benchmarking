@@ -10,6 +10,8 @@
   "license": "UNLICENSED",
   "description": "",
   "dependencies": {
-    "hyperdb": "^4.15.2"
+    "corestore": "^7.4.5",
+    "hyperdb": "^4.15.2",
+    "rache": "^1.0.0"
   }
 }
