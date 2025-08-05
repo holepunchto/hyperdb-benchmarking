@@ -4,9 +4,9 @@ import spec from './spec/hyperdb/index.js'
 
 const DURATION = 10 * 1000 // 10s
 
-await bench('./dbs/1e6', 1e6)
-await bench('./dbs/1e5', 1e5)
-await bench('./dbs/1e4', 1e4)
+await bench('./dbs/1e6.rocks', 1e6)
+await bench('./dbs/1e5.rocks', 1e5)
+await bench('./dbs/1e4.rocks', 1e4)
 await benchRaw('./dbs/raw-1e6', 1e6)
 await benchRaw('./dbs/raw-1e5', 1e5)
 await benchRaw('./dbs/raw-1e4', 1e4)
